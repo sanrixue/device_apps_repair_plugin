@@ -1,0 +1,25 @@
+name: device_apps_repair
+description: A new Flutter Plugin.
+version: 0.0.1
+author:
+homepage:
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: com.example.device_apps_repair
+    pluginClass: DeviceAppsRepairPlugin
+
+environment:
+  sdk: ">=1.19.0 <3.0.0"
+  flutter: ">=0.1.2 <2.0.0"
